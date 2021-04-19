@@ -24,7 +24,7 @@ class Car
             }
         } catch(Exception $e){
             echo " An execption has been found : ". $e->getMessage(). "<br>";
-            $this->setParkBrake() === false;
+            $this->setParkBrake(false);
         }  finally {
             echo " My car roll like a donuts i gonna go at moe's bar";
         }
